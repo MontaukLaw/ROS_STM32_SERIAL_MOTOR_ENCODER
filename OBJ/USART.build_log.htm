@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: fd dfd, fdf, LIC=LJWFW-QX2PX-LT73E-5T3RN-EHBE4-H78SE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DARMSTM.DLL V1.66.0.1
+Target DLL:      Segger\JL2CM3.dll V2.99.16.0
+Dialog DLL:      TARMSTM.DLL V1.65.0.0
+ 
+<h2>Project:</h2>
+C:\baiduNetDisk\标准例程-库函数版本\2，标准例程-库函数版本\实验4 串口实验\USER\USART.uvprojx
+Project File Date:  07/15/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'USART'
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling main.c...
+main.c(53): warning:  #177-D: variable "t" was declared but never referenced
+   	u16 t;
+main.c(56): warning:  #177-D: variable "len" was declared but never referenced
+  	u16 len;	
+main.c(57): warning:  #177-D: variable "times" was declared but never referenced
+  	u16 times=0;
+main.c: 3 warnings, 0 errors
+compiling led.c...
+compiling key.c...
+compiling timer.c...
+compiling delay.c...
+compiling motor.c...
+..\HARDWARE\MOTOR\motor.c(71): warning:  #223-D: function "setLefttPWM" declared implicitly
+              setLefttPWM(motorControlMsg->pLeft);
+..\HARDWARE\MOTOR\motor.c: 1 warning, 0 errors
+compiling lcd.c...
+compiling usart.c...
+compiling sys.c...
+compiling core_cm3.c...
+compiling tools.c...
+..\SYSTEM\sys\tools.c(50): warning:  #177-D: variable "tempLong" was declared but never referenced
+      long long tempLong;
+..\SYSTEM\sys\tools.c(51): warning:  #177-D: variable "tempCounter" was declared but never referenced
+      long long tempCounter;
+..\SYSTEM\sys\tools.c: 2 warnings, 0 errors
+assembling startup_stm32f10x_hd.s...
+compiling exti.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_spi.c...
+linking...
+..\OBJ\USART.axf: Error: L6218E: Undefined symbol setLefttPWM (referred from motor.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 1 error messages.
+"..\OBJ\USART.axf" - 1 Error(s), 6 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\baiduNetDisk\标准例程-库函数版本\2，标准例程-库函数版本\实验4 串口实验\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
